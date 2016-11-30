@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginTop="8dp"
+        android:text="纳米学位应用"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/PopularMovies"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
+        android:background="#FF6F00"
+        android:onClick="TheFirstButton"
+        android:paddingBottom="8dp"
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp"
+        android:paddingTop="8dp"
+        android:text="热门电影" />
+
+    <Button
+        android:id="@+id/StockEagle"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PopularMovies"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
+        android:background="#FF6F00"
+        android:onClick="TheSecondButton"
+        android:paddingBottom="8dp"
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp"
+        android:paddingTop="8dp"
+        android:text="股票雄鹰" />
+
+    <Button
+        android:id="@+id/XyzReader"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/StockEagle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
+        android:background="#FF6F00"
+        android:onClick="TheThirdButton"
+        android:paddingBottom="8dp"
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp"
+        android:paddingTop="8dp"
+        android:text="XYZ 阅读器" />
+
+    <Button
+        android:id="@+id/MostNews"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/XyzReader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
+        android:background="#FF6F00"
+        android:onClick="TheFourthButton"
+        android:paddingBottom="8dp"
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp"
+        android:paddingTop="8dp"
+        android:text="最新闻" />
+
+    <Button
+        android:id="@+id/GraduationDesign"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MostNews"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp"
+        android:background="#FF6F00"
+        android:onClick="TheFifthButton"
+        android:paddingBottom="8dp"
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp"
+        android:paddingTop="8dp"
+        android:text="毕业设计" />
+
+
+    <TextView
+        android:id="@+id/ShowMassage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GraduationDesign"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/textsharp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</RelativeLayout>
